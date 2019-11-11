@@ -44,7 +44,7 @@ public class ColormemComponent extends JPanel implements MouseListener, ActionLi
     private int color;
     private int [] colors;
     private State state = State.INTRO;
-    private Speed speed = Speed.MEDIUM;
+    private Speed speed = Speed.SLOW;
     private Timer timer = null;
 
     private Color color_darkred;
